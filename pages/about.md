@@ -7,8 +7,9 @@ weight: 3
 
 # **About Me**
 
-Hi I am **{{ site.author.name }}** :wave:,<br>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Hello, I am Herman Mak (麥翰文).
+
+I am an MSc Advanced Aeronautical Engineering student and course representative at Imperial College London. My main intersts are in uncovering the fascinating secrets of turbulence and aerodynamics, and using their properties to make optimal efficiency gains via control in transportation (ground/air/space), renewble energy, or any other way that will benefit our built environment. I also have a wider interest in anything physics, engineering, mathematics, technology, and scientific communication/teaching. Please find below a short overview of me or alternatively [view my full CV here](../assets/build/Mak_H_CV.pdf).
 
 <div class="row">
 {% include about/skills.html title="Programming Skills" source=site.data.programming-skills %}

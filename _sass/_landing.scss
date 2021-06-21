@@ -26,3 +26,23 @@
   object-fit: cover;
   object-position: center;
 }
+
+.link-after {
+  content: "";
+  display: block;
+  height: 0.15em;
+  background: $primary;
+}
+
+.landing-link,
+.landing-brand {
+  &::after {
+    @extend .link-after;
+    width: 0;
+    transition: width 0.35s;
+  }
+
+  &:hover::after {
+    width: 100%;
+  }
+}
