@@ -93,4 +93,6 @@ exclude:
   - README.md
   - CONTRIBUTING.md
   - LICENSE
+  - _projects/(1) Example.md
+  - _projects/(2) Awesome Project.md
   - "*.log"
