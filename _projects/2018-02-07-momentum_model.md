@@ -6,7 +6,7 @@ description: A physics model from mobile phone acceleration data.
 ---
 # Physics Mechanics Model
 
-For our Physics 1 course in _Introductory Mechanics_ at Quest University, we were tasked with learning about Newtonian Mechanics and completed a month-long project to build a physics model that would convert acceleration data obtained from a smartphone app, into velocity, and position data.
+For our Physics 1 course in _Introductory Mechanics_ at Quest University, we were tasked with learning about Newtonian Mechanics and completed a month-long project to build a physics model that would convert acceleration data obtained from a smartphone app, into velocity, and position data. This is basically a dead reckoning model using acceleration and rotational data.
 
 ## Modelling Lift Motion
 

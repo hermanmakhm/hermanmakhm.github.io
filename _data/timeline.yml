@@ -1,11 +1,12 @@
-- title: PhD in Fluid Mechanics<br>ONERA &amp; &Eacute;cole Polytechnique
-  from: 10/2021
-  to: 09/2024
-  description: I have accepted a doctoral position beginning October 2021 on the <i>Improvement of Aeroelastic Models for Linear Gust Response Prediction</i> for aerofoils in subsonic and supersonic flow using resolvent analysis. This project will be co-supervised by Dr Olivier Marquet (ONERA-Meudon), Dr Johann Moulin (ONERA-Chatillon), and Dr Lutz Lesshafft (&Eacute;cole Polytechnique-LadHyX) and is partly funded by Airbus and ONERA.
+- title: PhD in Fluid Mechanics<br>École polytechnique &amp; ONERA - The French Aerospace Lab
+  from: 11/2021
+  to: 11/2024
+  description: I am currently pursuing a PhD in theoretical and numerical fluid mechanics and aeroelasticity on the <i>Improvement of Aeroelastic Models for Linear Gust Response Prediction</i> for aerofoils in subsonic and supersonic flow using resolvent analysis. This project will be co-supervised by Dr Olivier Marquet (<a href="https://www.onera.fr/en/daaa">ONERA-DAAA</a>), Dr Johann Moulin (<a href="https://www.onera.fr/en/daaa">ONERA-DAAA</a>), and Dr Lutz Lesshafft (<a href="https://www.ladhyx.polytechnique.fr/fr/">École polytechnique-LadHyX</a>), and is partly funded by Airbus and ONERA.
+
 - title: MSc Advanced Aeronautical Engineering<br>Imperial College London
   from: 10/2020
-  to: 09/2021
-  description: I am currently on course for a Distinction after having completed modules on a broad range of topics related to aeronautical engineering including aerodynamics (including turbulence, flow control, aeroservoelasicity, compressible flows, and Computational Fluid Dynamics), structural dynamics, control theory, AI, spaceflight mechanics, aircraft design, and airworthiness. I am currently completing a research project to correct an error in <a href="https://arxiv.org/abs/1304.4638">Chernyshenko's (2013)</a> prediction of the net power saved by utilising sinusoidal walls (i.e. wall roughness) to emulate spatial spanwise oscillation.
+  to: 10/2021
+  description: I am on course for a Distinction after having completed modules on a broad range of topics related to aeronautical engineering including aerodynamics (including turbulence, flow control, aeroservoelasicity, compressible flows, and Computational Fluid Dynamics), structural dynamics, control theory, AI, spaceflight mechanics, aircraft design, and airworthiness.<br><br>Furthermore, I completed a research project to predict the net drag reduction that can be achieved by positioning an undulating sinusoidal wavy wall at an oblique angle to the flow direction to emulate spanwise forcing; this idea was first proposed by my supervisor in <a href="https://arxiv.org/abs/1304.4638">Chernyshenko (2013)</a>.
 
 - title: BA&Sc How do fluids affect vehicles?<br>Quest University Canada
   from: 09/2016
@@ -15,7 +16,7 @@
 - title: Visiting Research Student<br>University of Southampton
   from: 10/2019
   to: 01/2020
-  description: I conducted particle image velocimetry of cambered and symmetric aerofoils at different angles of attack in low Reynolds number flow in a water tunnel to observe vortex shedding and coherent structures from the separated flow (see ).
+  description: I conducted particle image velocimetry under the guidance of Dr Christina Vanderwel of cambered and symmetric aerofoils at different angles of attack in low Reynolds number flow in a water tunnel to observe vortex shedding and coherent structures from the separated flow. The data were used to complete my <a href="https://hermanmak.com/projects/2020-05-27-keystone">final project (Keystone)</a> for Quest University Canada.
 
 - title: Education Technology Intern<br>Independent Schools Foundation Academy
   from: 06/2018

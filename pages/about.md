@@ -9,7 +9,7 @@ weight: 3
 
 Hello, I am Herman Mak (麥翰文).
 
-I am an MSc Advanced Aeronautical Engineering student and course representative at Imperial College London. My main intersts are in uncovering the fascinating secrets of turbulence and aerodynamics, and using their properties to make optimal efficiency gains via control in transportation (ground/air/space), renewble energy, or any other way that will benefit our built environment. I also have a wider interest in anything physics, engineering, mathematics, technology, and scientific communication/teaching. Please find below a short overview of me or alternatively [view my full CV here](../assets/build/Mak_H_CV.pdf).
+I am currently a PhD candidate in theoretical and numerical fluid mechanics and aeroelasticity at École polytechnique and ONERA - The French Aerospace Lab. I am deeply interested in uncovering the fascinating secrets of turbulence, aerodynamics, and their interaction with transportation (ground/air/space), renewable energy infrastructure, or any other parts of our built environment. I also have a wider interest in anything physics, engineering, mathematics, technology, and scientific communication/teaching. Moreover, I am highly trained in my degrees not only in aerospace engineering and fluid mechanics, but also in research, data analysis, communication, collaboration, and critical, creative, interdisciplinary thinking. Please find below a short overview of my education and experience so far, or alternatively [view my full CV here](../assets/build/Mak_H_CV.pdf).
 
 <div class="row">
 {% include about/skills.html title="Programming Skills" source=site.data.programming-skills %}
