@@ -10,3 +10,11 @@ Gemfile.lock
 
 # Log Files
 *.log
+
+# LaTeX Temp Files
+*.aux
+*.fdb_latexmk
+*.fls
+*.out
+*.synctex.gz
+*.synctex.gz.sum.synctex
