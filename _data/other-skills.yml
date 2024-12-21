@@ -3,15 +3,15 @@
   color: 
 
 - name: LaTeX
-  percentage: 90
+  percentage: 95
   color: danger
 
-- name: Star-CCM+ (CFD)
-  percentage: 75
+- name: Solidworks/Fusion 360
+  percentage: 45
   color: success
 
-- name: Solidworks/Fusion 360
-  percentage: 75
+- name: Star-CCM+ (CFD)
+  percentage: 40
   color: info
 
 #color: secondary / success / danger / warning / info / light / dark
