@@ -2,16 +2,12 @@
   percentage: 95
   color: 
 
-- name: LaTeX
-  percentage: 95
+- name: Adobe Creative Suite
+  percentage: 85
   color: danger
 
-- name: Solidworks/Fusion 360
-  percentage: 45
+- name: LaTeX
+  percentage: 95
   color: success
-
-- name: Star-CCM+ (CFD)
-  percentage: 40
-  color: info
 
 #color: secondary / success / danger / warning / info / light / dark

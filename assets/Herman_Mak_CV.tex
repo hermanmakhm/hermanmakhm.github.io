@@ -1,0 +1,358 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[a4paper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{cmap}
+\usepackage{graphicx}
+%\input{C:/Users/Herman/AppData/Local/Programs/MiKTeX/tex/latex/pdfx/glyphtounicode-ntx}
+%\input{C:/Users/Herman/AppData/Local/Programs/MiKTeX/tex/latex/pdfx/glyphtounicode-cmr}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+% \usepackage{helvet}
+% \renewcommand{\familydefault}{\sfdefault}
+
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+\hfuzz=5pt
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\usepackage{geometry}
+\newgeometry{vmargin={20mm}, hmargin={20mm,20mm}}
+% Adjust margins
+%\addtolength{\oddsidemargin}{-1.25cm}
+%\addtolength{\evensidemargin}{-1.25cm}
+%\addtolength{\textwidth}{2.5cm}
+%\addtolength{\topmargin}{-.5in}
+%\addtolength{\textheight}{1.0in}
+\setlength{\footskip}{4.1pt}
+
+%\urlstyle{same}
+
+\raggedbottom
+%\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+%\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1\vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+\begin{flushleft}
+\textbf{\Large Herman Mak} \\ \vspace{1pt}
+\small London, UK // +44 7554 652552 // \href{mailto:hermanmakinfo@gmail.com}{\underline{hermanmakinfo@gmail.com}} // %$|$ 
+\href{https://www.linkedin.com/in/hermanmakhm/}{\underline{LinkedIn}} //
+\href{https://hermanmak.com}{\underline{Personal Website}}
+\end{flushleft}
+
+\section{Professional Summary}
+Fluid dynamics engineer with doctoral-level experience in applying numerical simulation and HPC workflows to complex aerodynamics problems, specialising in aeroelasticity and aerodynamic flow-structures. Strong track record of selecting appropriate modelling assumptions, interpreting results, making informed decisions drawing on interdisciplinary thinking, and communicating engineering conclusions to a broad range of stakeholders.
+
+%-----------EXPERIENCE-----------
+\section{Work Experience}
+
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Doctoral Researcher in Fluid Dynamics}{Nov 2021 -- Nov 2024}%08/11,07/11
+      {ONERA - The French Aerospace Lab \& LadHyX - École polytechnique}{Île-de-France, France}
+        \resumeItemListStart
+	\resumeItem{Conducted doctoral-level research in aeroelastic CFD with linear stability and resolvent analysis to enable optimal gust response prediction without full simulation of elastic structures subjected to predetermined gust shapes}
+	%\resumeItem{Developed aeroelastic CFD framework with {\it FEniCSx} ({\it Python}) validated against previous results, selecting appropriate modelling assumptions, and making informed trade-offs between model fidelity and computational cost}
+	%\resumeItem{Executed large-scale simulations on multi-node HPC clusters ({\it SLURM}), testing numerical strategies to reduce runtime, managing job scheduling, post-processing, and result validation}
+	\resumeItem{Developed aeroelastic HPC-based CFD framework with {\it FEniCSx} ({\it Python}) validated against previous results, selecting appropriate modelling assumptions, and making informed trade-offs between model fidelity and computational cost}
+	\resumeItem{Analysed steady and unsteady flow structures, upstream turbulence/gusts, and wake behaviour to understand their impact on aerodynamic performance and stability}
+
+	\resumeItem{Principal author of peer-reviewed conference proceeding and presentation, and peer reviewer at a conference on fluid-structure interactions: {\it Herman Mak, Olivier Marquet, Lutz Lesshafft. ``Resolvent Analysis for Aerofoil Response to Optimal Gusts.'' FIV2024. Foz do Iguaçu, Brazil. 2-5 July 2024.}}
+      \resumeItemListEnd
+    \resumeSubheading
+      {Teaching Assistant}{Sep 2022 -- May 2024}
+      {École polytechnique}{Île-de-France, France}
+      \resumeItemListStart
+      \resumeItem{Developed and guided CFD and experimental fluid dynamics projects (including PIV, force balance measurements, hot wire, and smoke flow visualisation experiments in water/wind tunnels), diagnosing issues, and advising on appropriate approaches based on problem context}
+      \resumeItem{Delivered tutorials in Aerodynamics and Physics lab modules, guiding students in advancing their engineering/scientific knowledge and thinking}
+      \resumeItem{Evaluated technical reports and presentations, scrutinising the validity of assumptions, interpretation of results, and clarity of engineering conclusions}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Peer Tutor}{Aug 2018 -- Mar 2020} %27/08, 19/03
+      {Quest University Canada}{Squamish, BC, Canada}
+      \resumeItemListStart
+      \resumeItem{Tutored students and led academic workshops on quantitative reasoning, report writing, technical communication, course-specific question sets, and technical skills such as Excel and LaTeX}%, in addition to students struggling in mandatory quantitative reasoning/mathematics diagnostics}
+        \resumeItem{Improved and digitised the collection of evaluation surveys, and reviewed collected evaluations to suggest actionable change}
+        \resumeItem{Spearheaded internationalisation efforts of peer tutors at the university}
+      \resumeItemListEnd
+      
+    \resumeSubheading
+      {Visiting Research Student}{Oct 2019 -- Jan 2020} %29/10, 22/01
+      {University of Southampton}{Southampton, UK}
+      \resumeItemListStart
+      \resumeItem{Designed and conducted water-flume PIV experiments on aerofoil wake flow structures and separation, making comparisons of different aerofoil profiles and angles of attack, selecting measurement techniques and test conditions to balance experimental accuracy and practical constraints}
+      \resumeItem{Built CAD models using {\it SolidWorks}, selected materials, and managed small-scale manufacturing}
+      \resumeItem{Processed and presented PIV data using {\it PIVlab} ({\it MATLAB}), assessing data quality and uncertainty to ensure conclusions were consistent with qualitative observations and previous experiments}
+      \resumeItemListEnd
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+    \resumeSubheading
+      {Education Technology Intern}{Jun 2018 -- Aug 2018} %08/06, 24/08
+      {Independent Schools Foundation Academy}{Hong Kong}
+      \resumeItemListStart
+        \resumeItem{Managed the school's online learning platform during a staff vacancy that occurred unexpectedly during my tenure, ensuring seamless operation}
+	\resumeItem{Automated yearly process and sped up the implementation of user requests by proactively learning and using {\it HTML}, {\it JavaScript}, and {\it MySQL}, putting the team weeks ahead of schedule}% having tested the process before implementing on the live server
+        %\resumeItem{Prepared Excel spreadsheet for automatic generation of SQL commands with a video guide for future reference.}
+        %\resumeItem{Created graphics and how-to guides
+        %%embedded into Moodle using HTML and Javascript
+        %in Mandarin and English for teachers on technology usage}
+      \resumeItemListEnd
+    
+    %\resumeSubheading
+      %{Special Events Crew}{Sep 2016 -- May 2018}
+      %{Quest University Canada}{Squamish, BC, Canada}
+      %\resumeItemListStart
+        %\resumeItem{Led teams of volunteers, worked independently, or worked with a small team to set up staging and AV equipment for events} % independently, or as the leader/a part of a team}
+        %\resumeItem{Aided in event organisation, and performed customer service duties}
+      %\resumeItemListEnd
+    
+    %\resumeSubheading
+      %{Day Camp Counsellor \& Photographer}{Jul 2017 -- Aug 2017}%idk if I should include this because it's lame and 
+      %{Treasure House, Noah's Ark}{Hong Kong}
+      %\resumeItemListStart
+        %\resumeItem{Mentored children through educational activities, and streamlined the photo selection/editing process}%, and helped with organisation of classes with a team of other camp counsellors.}
+        %%\resumeItem{Photographed events in coordination with others, and helped streamline editing using Adobe Lightroom.}
+      %\resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+    
+\newpage
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {MSc Advanced Aeronautical Engineering}{Oct 2020 -- Sep 2021}
+      {Imperial College London $|$ Distinction }{London, UK}
+        \resumeItemListStart
+	\resumeItem{Thesis: {\it Semi-empirical optimisation of the shape of a surface reducing turbulent skin friction}}
+	\resumeItem{Developed strong grounding in aerodynamics (including turbulence, flow control, aeroservoelasticity, and CFD), control theory, and structural analysis,
+        % depends on job/PhD description
+        as well as engineering best practices with application through coursework and thesis research} 
+%        \resumeItem{Expected Examined Modules: Advanced Mechanics of (Space) Flight, Advanced Propulsion, Aeroservoelasticity, Aerospace Structures, Aircraft Design and Airworthiness, Aircraft Systems Engineering and Aerial Vehicle Technologies, Analysis of Laminated Composites, Applied Aerodynamics, AI for Aerospace Engineers, Compressible Flow, Computational Fluid Dynamics, Control Theory, Emerging Technology for Green Aviation, Intro to Flow Control, Intro to Turbulence and Turbulence Modelling, and Stress Analysis and Impact.}
+%        \resumeItem{Expected Audited (Non-Examined) Modules: Advanced Manufacturing, Aircraft Performance and Flight Mechanics, Computational Mechanics, and Innovation Management.}
+%        \resumeItem{Planned Projects: MSc project on semi-empirical optimisation of the shape of a surface reducing turbulent skin friction with Prof Sergei Chernyshenko with the goal of publishing; Self-proposed independent project on optimal blowing on wingtips using sensitivity analysis/adjoint methods with Dr Georgios Rigas.}
+%        \resumeItem{MSc Course Representative: Collaborating with other representatives to act as a liaison between students and faculty, attending meetings to communicate and improve student experiences, and providing administrative and emotional support to students.} % only uncomment for admin/client based jobs
+%        \resumeItem{Extracurriculars:
+%        Imperial Formula Racing - Aerodynamics;
+%        ICL Rocketry - Propulsion (designing and assessing aerothermodynamics of engine components);
+%%        Space Society - Rocket Engine Design Project (designing gas injector and nozzle);
+%        Dance Club - Latin Team.}
+      \resumeItemListEnd
+      
+      
+      % list modules I've done/will do, including fundamental modules aero, cfd, cad, etc. include grades per module
+    \resumeSubheading
+      {BA\&Sc ``How do fluids affect vehicles?"}{Aug 2016 -- May 2020}
+      {Quest University Canada $|$ GPA: 3.76/4.00 (equivalent to First-Class)}{Squamish, BC, Canada}
+      
+      
+      \resumeItemListStart
+      \resumeItem{Thesis and final presentation: {\it An Analysis of Symmetric and Cambered Aerofoils in Low Reynolds Number Flow Using Particle Image Velocimetry (PIV)}}
+      \resumeItem{Focused an interdisciplinary degree to a self-directed curriculum concentrated on exploring fluid dynamics and the built environment}
+      \resumeItem{Trained to draw from insights across disciplines to tackle technical problems, and deliver written/oral analyses under tight time constraints due to the university's innovative teaching style}
+      \resumeItem{Awarded Quest University Canada Scholarship, and President's List (multiple terms)}
+	%\resumeItem{Designed a self-directed curriculum integrating courses across multiple disciplines to explore fluid mechanics and its impacts on vehicles and the built environment}
+	%\resumeItem{Classes unconventionally followed a sequential block structure, and were conducted solely in round-table discussions; this engendered interdisciplinary, creative problem solving, and allowed for multiple time constrained projects in each class, much like consultancy projects}
+        %that are uniquely conducted with round-table discussions, emphasising creative problem solving, and interdisciplinary, inquiry-based small-group learning, thereby simulating realistic work environments}
+%        \resumeItem{Developed problem solving, technical, rhetorical, and time management skills through classes that occur in successive 3.5 week blocks and are uniquely focused on round-table, interdisciplinary, inquiry based learning.}
+%        \resumeItem{Worked on numerous group and individual research projects and presentations per class with tight timelines, where we were often given the freedom to tailor and design the research to fit our own academic interests.}
+%        \resumeItem{Extracurriculars: Peer reviewer for the university academic journal; Social Dance Club leader and teacher.}
+      \resumeItemListEnd
+    %\resumeSubheading
+      %{IB \& Ontario Secondary School Diploma}{Aug 2005 -- Jun 2016}
+      %{Canadian International School of Hong Kong}{Hong Kong}
+      %\resumeItemListStart
+        %\resumeItem{Maple Leaf Award; Ontario Scholar}
+        %\resumeItem{Awarded the Manulife-Canadian International School of Hong Kong Scholarship}
+%%        \resumeItem{Extracurriculars: Stage/general manager for multiple school plays; Model United Nations delegation leader; Computer Science/Robotics Club.} %more teamwork
+      %\resumeItemListEnd
+  \resumeSubHeadingListEnd
+% Projects: In-depth what I did, what I learned 4/5 lines, presentation included, hyperlink possible, put in class projects
+
+%%-----------PROJECTS-----------
+%\section{Projects}
+    %\resumeSubHeadingListStart
+    	%\resumeProjectHeading
+		    %{\textbf{Imperial Formula Racing - Aerodynamics} $|$ \emph{Star-CCM+, SolidWorks}}{Oct 2020 -- Mar 2021}
+		    %\resumeItemListStart
+		    %\resumeItem{Designed nose-cone and body-panel concepts in {\it Solidworks} within design constraints collaborating in a small team}
+		    %\resumeItem{Ran aerodynamic evaluations in {\it Star-CCM+} using RANS to assess drag and downforce of the design, supporting design decisions under tight deadlines}
+    	%\resumeItemListEnd
+%%      \resumeProjectHeading
+%%          {\textbf{Machine Learning Algorithms} $|$ \emph{Python, Jupyter}}{Sep 2018}
+%%          \resumeItemListStart
+%%            \resumeItem{Learnt theory behind machine learning algorithms and independently researched and presented on machine learning advances in solving ordinary differential equations as a part of the machine learning class at Quest University.}
+%%            \resumeItem{Wrote scripts for decision tree, perceptron, k-nearest neighbours, and k-means algorithms for certain data-sets as extra projects outside the scope of the class (\href{https://github.com/Heman126/MachineLearningProblemSets}{\underline{Github link}}).}
+%%            %\resumeItem{Further developed coding }
+%%          \resumeItemListEnd
+%
+      %\resumeProjectHeading
+          %{\textbf{Physics Momentum Model} $|$ \emph{Python}}{Jan 2018 -- Feb 2018}
+          %\resumeItemListStart
+	    %\resumeItem{Developed a data-driven physics model using {\it Python} to model multiple complex real-world scenarios during an undergraduate Physics 1 course}
+	    %\resumeItem{Achieved accurate modelling of rotating-frame physics through the application of custom noise and error correction techniques} %Sole student to accurately model the physics in a rotating reference frame by pulling from knowledge garnered from other courses and applying innovative noise and error correction techniques}
+            %%through creative, interdisciplinary thinking
+            %%(\href{https://github.com/Heman126/SkeletonPhysicsModel}{\underline{Github link}}).}
+          %\resumeItemListEnd
+    %\resumeSubHeadingListEnd
+    %% \resumeProjectHeading
+    %%       {\textbf{Gitlytics} $|$ \emph{Python, Flask, React, PostgreSQL, Docker}}{June 2020 -- Present}
+    %%       \resumeItemListStart
+    %%         \resumeItem{Developed a full-stack web application using with Flask serving a REST API with React as the frontend}
+    %%         \resumeItem{Implemented GitHub OAuth to get data from user’s repositories}
+    %%         \resumeItem{Visualized GitHub data to show collaboration}
+    %%         \resumeItem{Used Celery and Redis for asynchronous tasks}
+    %%       \resumeItemListEnd
+%
+%-----------RELEVANT SKILLS-----------
+\section{Relevant Skills}
+%\resumeItemListStart
+%\resumeItem{Proficient in Python, Linux, Paraview, LaTeX, and Microsoft Office (incl. Excel)}
+%\resumeItem{Experienced in Git, HPC Systems (SLURM), and MATLAB}
+%\resumeItem{Novice in Star-CCM+, Fusion 360, SolidWorks, and Adobe Creative Suite}%C++, Fortran, MySQL, HTML, Javascript, and machine learning algorithms} % write with projects
+    %%Experienced in MATLAB (fluent), Python  (fluent), LaTeX (fluent), R, HTML/Javascript, MySQL, Machine Learning algorithms, Fusion 360, Solidworks, Git, Star-CCM+, and Final Cut Pro X.
+%%    \resumeItem{Trained through my undergraduate degree to work collaboratively and independently under time constraints to meet project goals through creative, critical, interdisciplinary thinking, and problem solving.}
+    %%\resumeItem{Experience in conducting, analysing, and communicating research, including research with statistics and datasets.}
+    %\resumeItem{Languages: English (native), Cantonese (native), Mandarin (C2), and French (B2-C1)}
+    %\resumeItemListEnd
+  \begin{itemize}[leftmargin=0.15in, label={}]
+     \small{\item{
+     \textbf{CFD/Engineering Tools}{: FEniCSx $|$ gmsh $|$ Paraview $|$ Experience using commercial solvers (Star-CCM+)} \\
+     \textbf{CAD Tools}{: Experience preparing and modifying geometry with SolidWorks and Fusion 360} \\
+     \textbf{Developer Tools}{: Python $|$ MATLAB $|$ Git $|$ Linux $|$ HPC Systems ({\it SLURM/MPI})} \\
+     \textbf{Other}{: Microsoft Office (incl. Excel) $|$ Adobe Creative Suite $|$ LaTeX} \\
+      \textbf{Languages}{: English (native) $|$ Cantonese (native) $|$ Mandarin (C2) $|$ French (B2-C1)}
+     }}
+  \end{itemize}
+
+%-----------Volunteering-----------
+\section{Community Service}
+  \resumeSubHeadingListStart
+    \resumeSubSubheading
+    {English Language Teaching Assistant for Immigrants Services Society of BC}{Nov 2018 -- Mar 2020}
+      
+    % \resumeSubheading
+    %   {Campaign Volunteer}{Sep 2019 -- Oct 2019}
+    %   {Liberal Party of Canada}{BC, Canada}
+    %   \resumeItemListStart
+    %     \resumeItem{Participated in Get Out the Vote campaigns,  and engaged with potential voters.} %built communication skills and other skills
+    %   \resumeItemListEnd
+    \resumeSubSubheading
+      {Mentor/Big Brother to High School Students}{Jan 2018 -- Apr 2019}
+  \resumeSubHeadingListEnd
+
+
+
+%
+%-----------EXTRA CURRICULARS-----------
+ \section{Extracurricular Activities}
+ \resumeItemListStart
+ 	 \resumeItem{Member of the aerodynamics team for Imperial Formula Racing (designed nose-cone and body panels with {\it SolidWorks} and assessed forces and flow structures under tight development timelines with {\it Star-CCM+})}
+	 \resumeItem{Member of Imperial College London Rocketry team for nozzle design}
+ 	 \resumeItem{MSc course representative}
+     \resumeItem{Led and taught the Quest University Social Dance Club}
+     \resumeItem{Peer reviewer for Quest University's academic journal}
+     % \resumeItem{Member of Quest University's Physics and Astronomy Club.}
+      %\resumeItem{Stage managed and acted as a general manager in multiple high school plays.}
+     % \resumeItem{Led a delegation at an international Model United Nations conference.}
+     \resumeItemListEnd
+
+%-------------------------------------------
+
+%\section{References} Dr Christina Vanderwel - Associate Professor in Experimental Fluid Dynamics (\href{mailto:C.M.Vanderwel@soton.ac.uk}{\underline{C.M.Vanderwel@soton.ac.uk}}) Dr Andrew Hamilton - Professor in Physics (\href{mailto:Andrew.Hamilton@questu.ca}{\underline{Andrew.Hamilton@questu.ca}})
+\end{document}

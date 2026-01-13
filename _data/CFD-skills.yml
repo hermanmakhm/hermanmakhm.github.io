@@ -1,19 +1,20 @@
-- name: Python
+- name: FEniCSx
   percentage: 90
   color: 
 
-- name: MATLAB (basic)
+- name: Mesh generation (gmsh)
   percentage: 60
   color: danger
 
-- name: C++ (basic)
+- name: Paraview
   percentage: 20
   color: success
           #- name: Python
           #percentage: 70
           #  color: secondary
-- name: Git
 
-- name: Linux
+- name: Star-CCM++ (basic)
 
-- name: HPC Systems (SLURM/MPI)
+- name: OpenFoam (basic)
+
+- name: CAD (SolidWorks/Fusion 360)
